@@ -8,6 +8,7 @@ var React = require('react');
 //   }
 // });
 
+
 // Stateless functional component
 var Examples = (props) => {
   return (
