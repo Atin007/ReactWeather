@@ -26779,9 +26779,18 @@
 	// Stateless functional component using Arrow functions
 	var About = function About(props) {
 	  return React.createElement(
-	    'h3',
+	    'div',
 	    null,
-	    'About component'
+	    React.createElement(
+	      'h3',
+	      null,
+	      'About component'
+	    ),
+	    React.createElement(
+	      'p',
+	      null,
+	      'Welcome to the about page'
+	    )
 	  );
 	};
 
