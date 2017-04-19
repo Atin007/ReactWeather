@@ -25498,6 +25498,7 @@
 	//   }
 	// });
 
+	// Stateless functional component
 	var Main = function Main(props) {
 	  return React.createElement(
 	    'div',
@@ -25740,7 +25741,7 @@
 	//   }
 	// });
 
-
+	// Stateless functional component
 	var WeatherMessage = function WeatherMessage(_ref) {
 	  var temp = _ref.temp,
 	      location = _ref.location;
@@ -26880,7 +26881,7 @@
 /* 252 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	var React = __webpack_require__(8);
 
@@ -26895,17 +26896,46 @@
 	// Stateless functional component using Arrow functions
 	var About = function About(props) {
 	  return React.createElement(
-	    'div',
+	    "div",
 	    null,
 	    React.createElement(
-	      'h3',
-	      null,
-	      'About component'
+	      "h1",
+	      { className: "text-center" },
+	      "About"
 	    ),
 	    React.createElement(
-	      'p',
+	      "p",
 	      null,
-	      'Welcome to the about page'
+	      "This is a weather application built on React. I have built this for The Complete React Web App Developer Course"
+	    ),
+	    React.createElement(
+	      "p",
+	      null,
+	      "Here are some of the tools I used:"
+	    ),
+	    React.createElement(
+	      "ul",
+	      null,
+	      React.createElement(
+	        "li",
+	        null,
+	        React.createElement(
+	          "a",
+	          { href: "https://facebook.github.io/react" },
+	          "React"
+	        ),
+	        " - This was the JavaScript framework used."
+	      ),
+	      React.createElement(
+	        "li",
+	        null,
+	        React.createElement(
+	          "a",
+	          { href: "http://openweathermap.org" },
+	          "Open Weather Map"
+	        ),
+	        " - I used Open Weather Map to search for weather data by city name."
+	      )
 	    )
 	  );
 	};

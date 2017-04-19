@@ -13,6 +13,7 @@ var Nav = require('Nav');
 //   }
 // });
 
+// Stateless functional component
 var Main = (props) => {
   return (
     <div>

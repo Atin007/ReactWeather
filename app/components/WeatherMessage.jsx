@@ -10,7 +10,7 @@ var React = require('react');
 //   }
 // });
 
-
+// Stateless functional component
 var WeatherMessage = ({temp, location}) => {
   return (
     <h3>It is {temp} in {location}</h3>
