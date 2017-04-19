@@ -32,7 +32,7 @@ function addPromise(a, b) {
     if (typeof a === 'number' && typeof b === 'number') {
         resolve(a+b);
     } else {
-      reject('Not a number');
+        reject('Not a number');
     }
   });
 }
